@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Dishes from "./components/Dishes";
 import Review from "./components/Review";
+import FloatingWhatsApp from "./components/FloatingWhatsapp";
 
 const App = () => {
   return (
@@ -35,6 +36,8 @@ const App = () => {
       </main>
 
       <Footer />
+
+      <FloatingWhatsApp />
     </div>
   );
 };

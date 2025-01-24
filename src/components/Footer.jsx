@@ -8,10 +8,9 @@ const Footer = () => {
     <div className=" bg-black text-white rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">FoodieWeb</h1>
+          <h1 className=" font-semibold text-xl pb-4">Abel&apos;s Kitchen.</h1>
           <p className=" text-sm">
-            Indulge in a symphony of flavors, where each plate is a canvas for
-            culinary excellence.
+            menyajikan street food autentik dan minuman segar, menghadirkan citarasa jalanan yang nikmat, memikat selera pelanggan.
           </p>
         </div>
         <div>
@@ -19,25 +18,13 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/about"
             >
-              Dishes
+              Tentang Kami
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
-            >
-              About
-            </a>
-            <a
-              className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
-            >
-              Menu
-            </a>
-            <a
-              className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/review"
             >
               Reviews
             </a>
@@ -48,33 +35,36 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/dishes"
             >
-              Our Dishes
+              Makanan
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/minuman"
             >
-              Premium Menu
+              Minuman
             </a>
           </nav>
         </div>
         <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
+          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Kontak Kami</h1>
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="https://abel-kitchen.vercel.app/"
             >
-              FoodieWeb@email.com
+              Abel&apos;s Kitchen
             </a>
             <a
-              className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              className="hover:text-brightColor transition-all cursor-pointer"
+              href="https://wa.me/+6285174368446"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              +64 958 248 966
+              +6285174368446
             </a>
+
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
@@ -88,7 +78,7 @@ const Footer = () => {
         <p>
           <p className=" text-center py-4">
             @copyright developed by
-            <span className=" text-brightColor"> champion programmers</span> |
+            <span className=" text-brightColor"> Wahyu Aji Pangestu</span> |
             All rights reserved
           </p>
         </p>

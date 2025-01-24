@@ -67,9 +67,9 @@ const Footer = () => {
 
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="https://www.instagram.com/abels_kitchensitubondo?igsh=bWJtcHJiNmxkenJs"
             >
-              Social media
+              Abel&apos;s Kitchen Instagram
             </a>
           </nav>
         </div>
@@ -78,7 +78,7 @@ const Footer = () => {
         <p>
           <p className=" text-center py-4">
             @copyright developed by
-            <span className=" text-brightColor"> Wahyu Aji Pangestu</span> |
+            <span className=" text-brightColor"> Aji </span> |
             All rights reserved
           </p>
         </p>

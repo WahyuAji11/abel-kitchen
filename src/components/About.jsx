@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/img/takoyaki.png";
+import Button from "../layouts/Button";
 
 const About = () => {
   return (
@@ -19,8 +20,16 @@ const About = () => {
         <p>
           Kami tidak hanya menawarkan rasa, tetapi juga pengalaman. Jadikan momen makan Anda lebih berkesan dengan pilihan terbaik dari kami. 😊
         </p>
-        <div className=" flex justify-center lg:justify-start">
+        <div className="flex justify-center lg:justify-start">
+          <a
+            href="https://www.instagram.com/abels_kitchensitubondo?igsh=bWJtcHJiNmxkenJs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button title="Ikuti Instagram Kami" />
+          </a>
         </div>
+
       </div>
     </div>
   );

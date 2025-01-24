@@ -133,17 +133,7 @@ const Navbar = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Dishes
-          </Link>
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="hover:text-brightColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            About
+            Makanan
           </Link>
           <Link
             to="menu"
@@ -154,6 +144,16 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             Menu
+          </Link>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-brightColor transition-all cursor-pointer"
+            onClick={closeMenu}
+          >
+            Tentang Kami
           </Link>
           <Link
             to="review"

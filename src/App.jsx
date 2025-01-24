@@ -22,7 +22,7 @@ const App = () => {
           <Dishes />
         </div>
 
-        <div id="minuman">
+        <div id="menu">
           <Menu />
         </div>
 

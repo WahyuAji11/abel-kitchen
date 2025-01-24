@@ -12,7 +12,9 @@ const Home = () => {
           Abel&apos;s Kitchen menyajikan street food autentik dan minuman segar, menghadirkan citarasa jalanan yang nikmat, memikat selera pelanggan.
         </p>
         <div className=" lg:pl-44">
-          <Button title="Pesan Sekarang!" />
+          <a href="https://wa.me/+6285174368446">
+            <Button title="Pesan Sekarang!" />
+          </a>
         </div>
       </div>
     </div>

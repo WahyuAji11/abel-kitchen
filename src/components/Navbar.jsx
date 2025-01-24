@@ -143,7 +143,7 @@ const Navbar = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Menu
+            Minuman
           </Link>
           <Link
             to="about"

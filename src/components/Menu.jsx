@@ -13,7 +13,7 @@ const Menu = () => {
 
       <div className=" flex flex-wrap gap-8 justify-center">
         <DishesCard img={menu1} title="Es teh jumbo" price="Rp 3000" />
-        <DishesCard img={menu2} title="Es Coklat" price="Rp 7000" />
+        <DishesCard img={menu2} title="Es Coklat" price="Rp 5000" />
         <DishesCard img={menu3} title="Es Limun berbagai rasa" price="Rp 5000" />
       </div>
     </div>

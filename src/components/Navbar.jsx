@@ -57,7 +57,7 @@ const Navbar = () => {
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
                   <Link
-                    to="makanan"
+                    to="dishes"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="minuman"
+                    to="menu"
                     spy={true}
                     smooth={true}
                     duration={500}

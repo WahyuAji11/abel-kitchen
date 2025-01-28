@@ -1,7 +1,4 @@
-import React from "react";
-import { BsFacebook } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
-import { BsInstagram } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -16,35 +13,47 @@ const Footer = () => {
         <div>
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Links</h1>
           <nav className=" flex flex-col gap-2">
-            <a
+            <Link
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/about"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Tentang Kami
-            </a>
-            <a
+            </Link>
+            <Link
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/review"
+              to="review"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Reviews
-            </a>
+            </Link>
           </nav>
         </div>
         <div>
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Menu</h1>
           <nav className=" flex flex-col gap-2">
-            <a
+            <Link
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/dishes"
+              to="dishes"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Makanan
-            </a>
-            <a
+            </Link>
+            <Link
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/minuman"
+              to="menu"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Minuman
-            </a>
+            </Link>
           </nav>
         </div>
         <div>
@@ -52,9 +61,11 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="https://abel-kitchen.vercel.app/"
+              href="https://maps.app.goo.gl/G2titkNciFyBd1aY6"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Abel&apos;s Kitchen
+              Klik untuk melihat lokasi kami
             </a>
             <a
               className="hover:text-brightColor transition-all cursor-pointer"
@@ -68,6 +79,8 @@ const Footer = () => {
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="https://www.instagram.com/abels_kitchensitubondo?igsh=bWJtcHJiNmxkenJs"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Abel&apos;s Kitchen Instagram
             </a>

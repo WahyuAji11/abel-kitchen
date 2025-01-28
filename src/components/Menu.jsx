@@ -1,8 +1,7 @@
-import React from "react";
 import DishesCard from "../layouts/DishesCard";
-import menu1 from "../assets/img/es-teh-jumbo.jpg";
-import menu2 from "../assets/img/es-coklat.jpg";
-import menu3 from "../assets/img/es-limun.png";
+import menu1 from "../assets/img/es-teh-jumbo.webp";
+import menu2 from "../assets/img/es-coklat.webp";
+import menu3 from "../assets/img/es-limun.webp";
 
 const Menu = () => {
   return (

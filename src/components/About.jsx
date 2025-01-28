@@ -1,5 +1,4 @@
-import React from "react";
-import img from "../assets/img/takoyaki.png";
+import img from "../assets/img/takoyaki.webp";
 import Button from "../layouts/Button";
 
 const About = () => {
@@ -7,7 +6,7 @@ const About = () => {
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5">
       <img src={img} alt="img" />
 
-      <div className=" space-y-4 lg:pt-14">
+      <div className=" space-y-4 lg:pt-14 lg:ml-14 sm: mt-5">
         <h1 className=" font-semibold text-4xl text-center md:text-start">
           Mengapa Memilih Abel&apos;s Kitchen
         </h1>

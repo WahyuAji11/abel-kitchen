@@ -1,12 +1,11 @@
-import React from "react";
-import img1 from "../assets/img/takoyaki-original_.jpg";
-import img2 from "../assets/img/takoyaki-spicy.jpg";
-import img3 from "../assets/img/takoyaki-lada-hitam.jpg";
-import img4 from "../assets/img/takoyaki-korean.jpg";
-import img5 from "../assets/img/takoyaki-bulgogi.jpg";
-import img6 from "../assets/img/sempol-ayam.jpeg";
-import img7 from "../assets/img/sosis.jpg";
-import img8 from "../assets/img/pentol-bakar.jpg";
+import img1 from "../assets/img/takoyaki-original_.webp";
+import img2 from "../assets/img/takoyaki-spicy.webp";
+import img3 from "../assets/img/takoyaki-lada-hitam.webp";
+import img4 from "../assets/img/takoyaki-korean.webp";
+import img5 from "../assets/img/takoyaki-bulgogi.webp";
+import img6 from "../assets/img/sempol-ayam.webp";
+import img7 from "../assets/img/sosis.webp";
+import img8 from "../assets/img/pentol-bakar.webp";
 
 
 import DishesCard from "../layouts/DishesCard";
